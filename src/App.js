@@ -35,7 +35,15 @@ function App() {
     if (splitUrl[splitUrl.length - 1] === '#home') {
     setCurrentPage('Home');
     }
-    //add if statement for rest of pages 
+    if (splitUrl[splitUrl.length - 1] === '#about') {
+      setCurrentPage('About');
+    }
+    if (splitUrl[splitUrl.length - 1] === '#projects') {
+      setCurrentPage('Projects');
+    }
+    if (splitUrl[splitUrl.length - 1] === '#contact') {
+      setCurrentPage('Contact');
+    }
 }, [] 
 
 
