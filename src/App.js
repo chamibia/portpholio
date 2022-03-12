@@ -1,16 +1,12 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Nav from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
 
-
-function App() {
-  const [currentPage, setCurrentPage] = useState('Home');
-  //MEthod to check value of 'currentPage => return value of currentPage, corresponding to compent to render 
-  const renderPage = () => {
-    
+function RenderPage({ currentPage }) {
+  
     if(currentPage === 'Home') {
       return <Home />;
     
@@ -21,17 +17,38 @@ function App() {
     if (currentPage === 'Projects'){
       return <Projects />;
     }
-    if (currentPage === 'ContactForm'){
+
+    if (currentPage === 'Contact'){
       return <ContactForm/>;
-    };
-    const handlePageChange = (page) => setCurrentPage(page);
+    }
+    console.log("Hello World");
+    return null;
   }
+
+
+
+function App() {
+  
+  const [currentPage, setCurrentPage] = useState(null);
+  useEffect(function() {
+    const splitUrl = window.location.href.split("/")
+    if (splitUrl[splitUrl.length - 1] === '#home') {
+    setCurrentPage('Home');
+    }
+    //add if statement for rest of pages 
+}, [] 
+
+
+  ) 
+  //MEthod to check value of 'currentPage => return value of currentPage, corresponding to compent to render 
+  const handlePageChange = (page) => setCurrentPage(page);
+
   return (
     <div>
       {/* Passing the currentPage from state and the function to update it */}
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
-      {renderPage()}
+      <RenderPage currentPage={currentPage} />
     </div>
   );
 }
