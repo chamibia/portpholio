@@ -4,6 +4,9 @@ import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import ContactForm from './components/Contact';
+import Footer from './components/Footer';
+
+
 
 function RenderPage({ currentPage }) {
   
@@ -57,6 +60,7 @@ function App() {
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       <RenderPage currentPage={currentPage} />
+      <Footer></Footer>
     </div>
   );
 }
