@@ -53,7 +53,7 @@ return (
 <a className="nav-link" href="https://docs.google.com/document/d/1oRjUISakMDb9pPmXiGCkLRAozME5FoP2-8pO4BCecjA/edit?usp=sharing">Resume</a>
         </div>
         </div>
-        <h1>B CHAMI</h1>
+        <h1 className="navName">B <br/> CHAMI </h1>
         </nav>
        
      

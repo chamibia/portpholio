@@ -39,6 +39,10 @@ body {
   letter-spacing: .1em;
   color: var(--light);
 }
+.navName {
+  color: #8c54ff;
+
+}
 .footer {
   position: absolute;
   margin-top: 100px;
@@ -80,7 +84,7 @@ body {
 }
 
 .introduction {
-  font-size: medium;
+  font-size: 100px;
   text-align: center;
   margin: 100px;
   
