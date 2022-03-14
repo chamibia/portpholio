@@ -10,9 +10,6 @@
 
 ## 'npm start' to go to localhost:3000
 
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 9d789bfa605bcd07b301bb45b8d11448cd5a3930
 ### MADE by BIANCA CHAMI 
