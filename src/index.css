@@ -7,7 +7,6 @@ main {
   --primary: #8c54ff;
   --secondary: #F3A847;
   --tertiary: #B12704;
- 
   --dark: #000000;
   --darker: #111111;
   --error: rgb(228, 46, 1);
@@ -58,7 +57,6 @@ body {
   align-items: center;
 
 }
-
 .bottom a {
   padding: 10px;
 }
@@ -85,7 +83,6 @@ body {
   font-size: medium;
   text-align: center;
   margin: 100px;
-  animation-duration: 4s;
   
 }
 .changing {
@@ -101,7 +98,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
