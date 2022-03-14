@@ -8,8 +8,6 @@
 
 ## 'npm start' to go to localhost:3000
 
-## Preview
 
-![screenshot]
 
 ### MADE by BIANCA CHAMI 
