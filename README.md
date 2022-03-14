@@ -1,4 +1,4 @@
-# Portfolio 
+# Bianca's Portfolio 
 
 ## My portfolio that includes a navigation to 'about', 'contact', 'projects' and 'resume'
 
