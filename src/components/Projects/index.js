@@ -1,13 +1,21 @@
-import React, { useState } from 'react';
+import React, { Children, useState } from 'react';
 import artistLyrics from '../../assets/portfolio/artist.png';
 import calendar from '../../assets/portfolio/calendar.png';
 import maintaker from '../../assets/portfolio/maintaker.png';
 import weather from '../../assets/portfolio/weatherD.png';
 import workday from '../../assets/portfolio/workday.png';
+import final from '../../assets/portfolio/final-project.png'; 
 
 function Projects() {
 
     const [projects] = useState([
+        {
+            name: 'Mission Possible',
+            description: 'Charity website that allows users to donate to a cause',
+            img: final,
+            repository: 'https://github.com/Fabscg/group-3-project',
+            link: 'https://glacial-cliffs-90348.herokuapp.com/'
+        },
         {
             name: 'P2G2 JobTracker',
             description: 'Job tracker that updates status for employees',
