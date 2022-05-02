@@ -18,6 +18,7 @@ main {
 
 * {
   box-sizing: border-box;
+  
 }
 
 html,
@@ -40,7 +41,9 @@ body {
   color: var(--light);
 }
 .navName {
-  color: #8c54ff;
+  color: #593174;
+  font-family: 'Dongle', sans-serif;
+
 
 }
 .footer {
@@ -51,7 +54,10 @@ body {
   height: 100px; /* Set the fixed height of the footer here */
   line-height: 60px; /* Vertically center the text there */
   background-color: #f5f5f5;
-  color: #8c54ff;
+  color: #1A0C1C;
+  font-size: 4px;
+  font-family: 'Dongle', sans-serif;
+
 }
 
 .bottom {
@@ -80,17 +86,22 @@ body {
 }
 
 .nav-link {
-  color: #8c54ff;
+  color: #593174;
+  font-size: 30px;
+  font-family: 'Dongle', sans-serif;
+
 }
 
 .introduction {
   font-size: 100px;
   text-align: center;
   margin: 100px;
+  color: #48434B;
+  font-family: 'Dongle', sans-serif;
   
 }
 .changing {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  font-family: 'Dongle', sans-serif  !important;
   font-weight: 400;
 }
 .bianca {
@@ -136,11 +147,11 @@ p {
   margin-top: 0;
 }
 
-a {
+/* a {
   color: var(--tertiary);
   text-decoration: none;
   font-weight: bold;
-}
+} */
 
 a:hover {
   text-decoration: underline;
@@ -289,6 +300,13 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+  font-family: 'Dongle', sans-serif;
+ 
+}
+.card-link {
+  font-size: 30px;
+  color: #593174;
+
 }
 
 .img-thumbnail {
@@ -310,7 +328,7 @@ button {
 	padding: 10px 15px;	
 }
 
-a {
+/* a {
 	border-radius: 5px;
 	color: var(--primary);
 	font-weight: 600;
@@ -318,7 +336,7 @@ a {
 	margin-left: -2px;
 	margin-right: -2px;
 	
-}
+} */
 
 .navActive {
   color: var(--secondary);

@@ -61,12 +61,12 @@ function Projects() {
         <section className="projects">
             {projects.map(project => {
                 return (
-                    <div  className="card" style={{width: "50%", height: "50%", paddingBottom: "100px"}} key={project.name}>
+                    <div  className="card" style={{width: "50%", height: "50%", paddingBottom: "100px", fontSize:"30%"}} key={project.name}>
                           <img className="card-img-top" src={project.img} alt="projects" />
                         <div className="card-body">
                         <h5 class="card-title">{project.name}</h5>
                       
-                        <h6 class="card-subtitle mb-2 text-muted">{project.description}</h6>
+                        <h6 className="card-subtitle mb-2 text-muted">{project.description}</h6>
                         <p className="card-link"><a href={project.repository}>Github</a></p>
                         <p className="card-link"><a href={project.link}>Project link</a></p>
                     </div>

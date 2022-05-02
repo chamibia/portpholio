@@ -68,7 +68,7 @@ function Nav({ currentPage, handlePageChange }) {
         </div>
       </div>
       <h1 className="navName">
-      B  <span style={{color:"black"}}>CHAMI </span>
+      B  <span style={{color:"#48434B"}}>CHAMI </span>
       </h1>
     </nav>
   );
