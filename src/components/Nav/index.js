@@ -49,7 +49,7 @@ function Nav({ currentPage, handlePageChange }) {
             Projects
           </a>
 
-          <a
+          {/* <a
             
             onClick={() => handlePageChange("Contact")}
             // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -58,7 +58,7 @@ function Nav({ currentPage, handlePageChange }) {
             }
           >
             Contact
-          </a>
+          </a> */}
           <a
             className="nav-link"
             href="https://docs.google.com/document/d/1oRjUISakMDb9pPmXiGCkLRAozME5FoP2-8pO4BCecjA/edit?usp=sharing"
