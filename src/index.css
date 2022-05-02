@@ -46,6 +46,9 @@ body {
 
 
 }
+#about {
+  background-color: rgb(246, 239, 250);
+}
 .footer {
   position: absolute;
   margin-top: 100px;
@@ -72,10 +75,19 @@ body {
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  gap: var(--sectiongap);
+  justify-content: space-around;
+  padding: 0 10%;  
+  background-color: rgb(246, 239, 250);
+}
+.projects-header {
+  color: #593174;
+  font-size: 50px;
+  font-family: 'Dongle', sans-serif;
 }
 .pyramid {
   display: flex;
@@ -103,6 +115,7 @@ body {
 .changing {
   font-family: 'Dongle', sans-serif  !important;
   font-weight: 400;
+  font-size: 30px;
 }
 .bianca {
   margin: 50px;
@@ -145,16 +158,6 @@ h6 {
 p {
   font-size: 1.1rem;
   margin-top: 0;
-}
-
-/* a {
-  color: var(--tertiary);
-  text-decoration: none;
-  font-weight: bold;
-} */
-
-a:hover {
-  text-decoration: underline;
 }
 
 header {
@@ -217,9 +220,6 @@ li {
   list-style: none;
 }
 
-nav a:hover {
-  text-decoration: none;
-}
 
 nav  li {
   cursor: pointer;
@@ -301,6 +301,7 @@ textarea {
   width: 25%;
   text-align: center;
   font-family: 'Dongle', sans-serif;
+  border: 5px solid #1A0C1C;;
  
 }
 .card-link {

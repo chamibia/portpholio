@@ -59,9 +59,10 @@ function Projects() {
     ])
     return(
         <section className="projects">
+            <h1 className="projects-header">Projects</h1>
             {projects.map(project => {
                 return (
-                    <div  className="card" style={{width: "50%", height: "50%", paddingBottom: "100px", fontSize:"30%"}} key={project.name}>
+                    <div  className="card" style={{width: "50%", height: "50%", paddingBottom: "100px"}} key={project.name}>
                           <img className="card-img-top" src={project.img} alt="projects" />
                         <div className="card-body">
                         <h5 class="card-title">{project.name}</h5>
