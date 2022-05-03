@@ -59,19 +59,19 @@ function Projects() {
     ])
     return(
         <section className="projects">
-            <h1 className="projects-header">Projects</h1>
+            <h1 className="projects-header" style={{fontSize:"60px"}}>Projects</h1>
             {projects.map(project => {
                 return (
                     <div  className="w3-row-padding w3-padding-16 w3-center" key={project.name}>
                             <div class="w3-quarter-center">
-                          <img className="card-img-top" src={project.img}  style={{width:"100%"}} alt="projects"/>
+                          <img className="card-img-top" src={project.img}  style={{width:"80%", height:"50%"}} alt="projects"/>
 
                         <div className="card-body">
                         <h5 class="card-title">{project.name}</h5>
                       
                         <h6 className="card-subtitle mb-2 text-muted">{project.description}</h6>
                         <p className="card-link"><a href={project.repository}>Github</a></p>
-                        <p className="card-link"><a href={project.link}>Project link</a></p>
+                        <p className="card-link" style={{marginBottom:"8%"}}><a href={project.link}>Project link</a></p>
                         </div>
                     </div>
                     </div>
