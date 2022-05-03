@@ -43,8 +43,7 @@ body {
 .navName {
   color: #593174;
   font-family: 'Dongle', sans-serif;
-
-
+  font-size: 55px;
 }
 #about {
   background-color: rgb(246, 239, 250);
