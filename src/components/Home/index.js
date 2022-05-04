@@ -6,7 +6,8 @@ export default function Home() {
         <section>
       <h1 className="introduction">WELCOME</h1>
       <div className="pyramid">
-      <img src={coverImage} className="my-2" style={{width:"70%", height:"20%"}} alt="cover" />
+      <img src={coverImage} style={{width:"70%", height:"20%",   borderRadius: "10%"
+}} alt="cover" />
       </div>
     </section>
     )
