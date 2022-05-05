@@ -70,8 +70,8 @@ function Projects() {
                         <h5 class="card-title">{project.name}</h5>
                       
                         <h6 className="card-subtitle mb-2 text-muted">{project.description}</h6>
-                        <p className="card-link"><a href={project.repository}>Github</a></p>
-                        <p className="card-link" style={{marginBottom:"8%"}}><a href={project.link}>Project link</a></p>
+                        <p className="card-link"><a href={project.repository} target="_blank" rel="noreferrer">Github</a></p>
+                        <p className="card-link" style={{marginBottom:"8%"}}><a href={project.link} target="_blank" rel="noreferrer">Project link</a></p>
                         </div>
                     </div>
                     </div>

@@ -9,7 +9,7 @@ function About() {
     <div className="w3-row w3-padding-64" id="about">
     <div className="w3-col m6 w3-padding-large w3-hide-small">
 
-      <img src={aboutImage} className="w3-round w3-image w3-opacity-min align-right bianca" alt="cover" style={{borderRadius:"10%", marginTop:"20%"}}width="400" height="500" />
+      <img src={aboutImage} className="w3-round w3-image w3-opacity-min align-right bianca" alt="cover" style={{borderRadius:"10%"}}width="400" height="500" />
       </div>
       <div className="w3-col m6 w3-padding-large">
       <h1 className="w3-center changing" style={{fontSize:"60px"}}>About</h1><br/>

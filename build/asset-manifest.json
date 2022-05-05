@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portpholio/static/css/main.69c0d637.css",
-    "main.js": "/portpholio/static/js/main.27232cc2.js",
+    "main.css": "/portpholio/static/css/main.1cf275cf.css",
+    "main.js": "/portpholio/static/js/main.a472d4f9.js",
     "static/js/787.137aa76a.chunk.js": "/portpholio/static/js/787.137aa76a.chunk.js",
     "static/media/final-project.png": "/portpholio/static/media/final-project.f91038429107fd676308.png",
     "static/media/weatherD.png": "/portpholio/static/media/weatherD.0e02e3f2e1d35ddf0717.png",
@@ -12,12 +12,12 @@
     "static/media/artist.png": "/portpholio/static/media/artist.ae5bbeb038b14a80da25.png",
     "static/media/calendar.png": "/portpholio/static/media/calendar.db8f3bf2eb4fca6a8941.png",
     "index.html": "/portpholio/index.html",
-    "main.69c0d637.css.map": "/portpholio/static/css/main.69c0d637.css.map",
-    "main.27232cc2.js.map": "/portpholio/static/js/main.27232cc2.js.map",
+    "main.1cf275cf.css.map": "/portpholio/static/css/main.1cf275cf.css.map",
+    "main.a472d4f9.js.map": "/portpholio/static/js/main.a472d4f9.js.map",
     "787.137aa76a.chunk.js.map": "/portpholio/static/js/787.137aa76a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.69c0d637.css",
-    "static/js/main.27232cc2.js"
+    "static/css/main.1cf275cf.css",
+    "static/js/main.a472d4f9.js"
   ]
 }
